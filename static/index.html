@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SlowTalk</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>SlowTalk <span id="title"></span></h1>
+    <div class="right">
+      <span><i class="dot" id="dot"></i><span id="model"></span></span>
+      <button class="ghost" id="new">New chat</button>
+    </div>
+  </header>
+  <div id="notice"></div>
+  <main id="chat" aria-live="polite"></main>
+  <div id="bar">
+    <div class="chips">
+      <button class="ghost chip">Give me a topic</button>
+      <button class="ghost chip">Say that again, simpler</button>
+      <button class="ghost chip">Translate that</button>
+    </div>
+    <form id="form">
+      <textarea id="input" rows="1" aria-label="Your message"></textarea>
+      <button class="send" id="sendBtn">Send</button>
+    </form>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>

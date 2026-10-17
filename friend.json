@@ -1,0 +1,11 @@
+{
+  "friend_name": "Alex",
+  "native_language": "English",
+  "target_language": "Spanish",
+  "speech_lang": "es-ES",
+  "level": "beginner",
+  "interests": ["football", "cooking", "anime"],
+  "goal": "chat with my partner's family at dinner",
+  "model": "gemma3:4b",
+  "ollama_url": "http://localhost:11434"
+}
